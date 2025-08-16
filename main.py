@@ -12,7 +12,7 @@ from PyQt5.QtGui import (QMovie, QFont)
 class TextWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Аниме-компаньон - Сообщения")
+        self.setWindowTitle("Компаньон - Сообщения")
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
         
         self.layout = QVBoxLayout()
@@ -69,7 +69,7 @@ class TextWindow(QWidget):
 class GifWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Аниме-компаньон - Анимация")
+        self.setWindowTitle("Компаньон - Анимация")
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
         self.setAttribute(Qt.WA_TranslucentBackground)
         
