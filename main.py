@@ -377,7 +377,7 @@ if __name__ == "__main__":
     print("Привет! Я твоя аниме-компаньонка ^_^")
     print("Поговори со мной - спрашивай о чем угодно!")
     
-    companion.show_message("Привет! Я аниме-девушка ^_^", "happy")
+    companion.show_message("Привет! ^_^", "happy")
     
     while True:
         try:
