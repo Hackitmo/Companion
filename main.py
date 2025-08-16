@@ -374,7 +374,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     companion = AnimeCompanion()
     
-    print("Привет! Я твоя аниме-компаньонка ^_^")
+    print("Привет! Я твоя компаньонка ^_^")
     print("Поговори со мной - спрашивай о чем угодно!")
     
     companion.show_message("Привет! ^_^", "happy")
